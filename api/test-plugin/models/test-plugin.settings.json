@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_plugins",
+  "info": {
+    "name": "testPlugin",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "firstComponent": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
