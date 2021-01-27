@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * my-plugin.js controller
+ * toggle.js controller
  *
- * @description: A set of functions called "actions" of the `my-plugin` plugin.
+ * @description: A set of functions called "actions" of the `toggle` plugin.
  */
 
 module.exports = {

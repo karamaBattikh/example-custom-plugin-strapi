@@ -1,10 +1,8 @@
-import React from "react";
 import pluginPkg from "../../package.json";
 import pluginId from "./pluginId";
 import App from "./containers/App";
 import Initializer from "./containers/Initializer";
 import lifecycles from "./lifecycles";
-import trads from "./translations";
 import Toggle from "./components/toggle";
 
 export default (strapi) => {
@@ -29,26 +27,6 @@ export default (strapi) => {
     name,
     preventComponentRendering: false,
     trads: {},
-    menu: {
-      pluginsSectionLinks: [
-        {
-          destination: `/plugins/${pluginId}`,
-          icon,
-          label: {
-            id: `${pluginId}.plugin.name`,
-            defaultMessage: name,
-          },
-          name,
-          permissions: [
-            // Uncomment to set the permissions of the plugin here
-            // {
-            //   action: '', // the action name should be plugins::plugin-name.actionType
-            //   subject: null,
-            // },
-          ],
-        },
-      ],
-    },
   };
 
   strapi.registerField({ type: "bool", Component: Toggle });

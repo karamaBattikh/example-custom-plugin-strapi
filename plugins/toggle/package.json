@@ -1,11 +1,11 @@
 {
-  "name": "strapi-plugin-my-plugin",
+  "name": "strapi-plugin-toggle",
   "version": "0.0.0",
   "description": "This is the description of the plugin.",
   "strapi": {
-    "name": "my-plugin",
+    "name": "toggle",
     "icon": "plug",
-    "description": "Description of my-plugin plugin."
+    "description": "Description of toggle plugin."
   },
   "dependencies": {},
   "author": {

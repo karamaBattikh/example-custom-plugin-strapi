@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/",
-      "handler": "my-plugin.index",
+      "handler": "toggle.index",
       "config": {
         "policies": []
       }
